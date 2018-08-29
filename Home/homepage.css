@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to left, #1d4350, #a43931);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+
+.nav{
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    border-radius: 3px;
+    color: #f2f2f2;
+    padding:10px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+  background: rgba(255, 255, 255, 0.4);
+  color: black;
+  transition: 0.6s;
+}
+
+.topnav a.active {
+  background-color: transparent;
+  color: white;
+}
+
+.parallax {
+		background-image: url("homepage.jpg");
+		min-height: 1000px; 
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+#h1{
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+  font-size: 80px;
+}
+
+#h2{
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#first{
+  background-image: url("first1.jpg");
+  width: 100%;
+  height: 500px;
+}
+
+#second{
+  background-image: url("second1.jpg");
+  width: 100%;
+  height: 500px;
+}
+
+#p1{
+  text-align: center;
+  color: black;
+  background: linear-gradient(to left, #1d4350, #a43931);
+}
+
+#p2{
+  text-align: center;
+  color: black;
+  background: linear-gradient(to left, #1d4350, #a43931);
+}
+
+#third{
+  background-image: url("third1.jpg");
+  width: 100%;
+  height: 900px;
+}
+
+#fourth{
+  width: 100%;
+  height: 500px;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+#body {
+   height: 250px; 
+   background: linear-gradient(to top, #870000, #190a05);  
+   text-align: center;
+}
+
+#footer {
+	background: #190A05;
+	position: relative;
+  bottom: 0;
+	width:100%;
+	height:20px; 
+  clear: both;  /* Height of the footer */
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}

@@ -1,0 +1,70 @@
+.box{
+	align-items: center;
+
+}
+#outerbox{
+	width: 1525px;
+	height: 700px;
+	overflow: hidden;
+}
+
+#sliderbox{
+	position: relative;
+	width: 13440px;
+	animation: teams;
+	animation-duration: 35s;
+	animation-iteration-count: infinite;
+}
+
+#sliderbox img{
+	float: left;
+}
+
+@keyframes teams{
+
+	0%{
+		left: 0px;
+	}
+	11.42%{
+		left: 0px;
+	}
+	14.28%{
+		left:-1920px;
+	}
+	25.71%{
+		left:-1920px;
+	}
+	28.57%{
+		left:-3840px;
+	}
+	40%{
+		left:-3840px;
+	}
+	42.85%{
+		left:-5760px;
+	}
+	54.28%{
+		left:-5760px;
+	}
+	57.14%{
+		left:-7680px;
+	}
+	68.57%{
+		left:-7680px;
+	}
+	71.42%{
+		left:-9600px;
+	}
+	82.85%{
+		left:-9600px;
+	}
+	85.71%{
+		left:-11520px;
+	}
+	97.14%{
+		left:-11520px;
+	}
+	100%{
+		left: -13440px;
+	}
+}

@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+   background: linear-gradient(to bottom, #000000, #434343);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+
+.nav{
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    border-radius: 3px;
+    color: white;
+    padding:10px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+  background: rgba(255,255,255,0.4);
+  color: red;
+  transition: 0.6s;
+}
+
+.topnav a.active {
+  background-color: transparent;
+  color: #ff4d4d;
+}
+
+
+.box{
+  align-items: center;
+
+}
+#outerbox{
+  width: 1519px;
+  height: 700px;
+  overflow: hidden;
+}
+
+#sliderbox{
+  position: relative;
+  width: 13440px;
+  animation: teams;
+  animation-duration: 35s;
+  animation-iteration-count: infinite;
+}
+
+#sliderbox img{
+  float: left;
+}
+
+@keyframes teams{
+
+  0%{
+    left: 0px;
+  }
+  11.42%{
+    left: 0px;
+  }
+  14.28%{
+    left:-1920px;
+  }
+  25.71%{
+    left:-1920px;
+  }
+  28.57%{
+    left:-3840px;
+  }
+  40%{
+    left:-3840px;
+  }
+  42.85%{
+    left:-5760px;
+  }
+  54.28%{
+    left:-5760px;
+  }
+  57.14%{
+    left:-7680px;
+  }
+  68.57%{
+    left:-7680px;
+  }
+  71.42%{
+    left:-9600px;
+  }
+  82.85%{
+    left:-9600px;
+  }
+  85.71%{
+    left:-11520px;
+  }
+  97.14%{
+    left:-11520px;
+  }
+  100%{
+    left: -13440px;
+  }
+}
+
+.teambox{
+  overflow: auto;
+  background: rgba(255,255,255,0.1);
+}
+
+.float-cloud{
+  float: right;
+  border: solid black 1px;
+  border-radius: 2px;
+}
+
+.float-liq{
+  float: left;
+  border: solid black 1px;
+  border-radius: 2px;
+}
+
+.float-navi{
+  float: right;
+  border: solid black 1px;
+  border-radius: 2px;
+}
+
+.float-og{
+  float: left;
+  border: solid black 1px;
+  border-radius: 2px;
+}
+
+.float-faze{
+  float: right;
+  border: solid black 1px;
+  border-radius: 2px;
+}
+
+.float-fna{
+  float: left;
+  border: solid black 1px;
+  border-radius: 2px;
+}
+
+.float-newb{
+  float: right;
+  border: solid black 1px;
+  border-radius: 2px;
+}
+
+.frm{
+  margin-left: 250px;
+}
+
+.frmr{
+  margin-left: 980px;
+}
+
+input.MyButton {
+width: 300px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size: 150%;
+background: linear-gradient(to top, #200122, #6f0000);
+color: #fff;
+border: 1px solid #3366cc;
+border-radius: 10px;
+}
+input.MyButton:hover {
+color: #ffff00;
+background: linear-gradient(to right, #000000, #434343);
+border: 1px solid #fff;
+}
+
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+#body {
+   height: 250px; 
+   background: linear-gradient(to top, #000000, #434343);  
+   text-align: center;
+}
+
+#footer {
+  background: #000000;
+  position: relative;
+  bottom: 0;
+  width:100%;
+  height:20px; 
+  clear: both;  /* Height of the footer */
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}

@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to top, #8e0e00, #1f1c18);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+
+.nav{
+    background: rgba(255, 255, 255, 0.5);
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    border-radius: 3px;
+    color: black;
+    padding:10px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ff4d4d;
+  color: white;
+  transition: 0.6s;
+}
+
+.topnav a.active {
+  background-color: transparent;
+  color: red;
+}
+
+
+
+.parallax {
+    background-image: url("gameback.png");
+    min-height: 1000px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fortnite{
+  overflow: auto;
+  background: rgba(255,255,255,0.4); 
+}
+
+.float-img{
+  float: right;
+  border: solid black 1px;
+  border-radius: 2px;
+}
+
+.pubg{
+  overflow: auto;
+  background: rgba(255,255,255,0.4);
+}
+
+.float-pubg{
+  float: left;
+  border: solid black 1px;
+  border-radius: 2px;
+}
+
+.csgo{
+  overflow: auto;
+  background: rgba(255,255,255,0.4);
+}
+
+.float-csgo{
+  float: right;
+  border: solid black 1px;
+  border-radius: 2px;
+}
+
+.dota{
+  overflow: auto;
+  background: rgba(255,255,255,0.4);
+}
+
+.float-dota{
+  float: left;
+  border: solid black 1px;
+  border-radius: 2px;
+}
+
+.over{
+  overflow: auto;
+  background: rgba(255,255,255,0.4);
+}
+
+.float-over{
+  float: right;
+  border: solid black 1px;
+  border-radius: 2px;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+#body {
+   height: 250px; 
+   background: linear-gradient(to top, #870000, #190a05);  
+   text-align: center;
+}
+
+#footer {
+  background: #190A05;
+  position: relative;
+  bottom: 0;
+  width:100%;
+  height:20px; 
+  clear: both;  /* Height of the footer */
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
